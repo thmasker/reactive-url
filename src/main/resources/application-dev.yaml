@@ -1,0 +1,8 @@
+quarkus:
+  datasource:
+    username: user
+    password: pass
+    jdbc:
+      url:
+    reactive:
+      url:

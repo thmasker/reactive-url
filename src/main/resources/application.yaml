@@ -1,0 +1,14 @@
+quarkus:
+  application:
+    name: reactive-url
+  container-image:
+    group: thmasker
+  datasource:
+    db-kind: postgresql
+    jdbc:
+      url: jdbc:postgresql://${HOST}:5432/reactive-url
+    reactive:
+      url: postgresql://${HOST}:5432/reactive-url
+  flyway:
+    migrate-at-start: true
+    validate-on-migrate: true
