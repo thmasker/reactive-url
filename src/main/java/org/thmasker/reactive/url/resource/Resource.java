@@ -8,7 +8,7 @@ import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
 import org.thmasker.reactive.url.services.Service;
 
-@Path("/providers")
+@Path("/resource")
 public class Resource {
 
   private final Service service;
