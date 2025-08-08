@@ -1,0 +1,7 @@
+quarkus:
+  datasource:
+    db-kind: postgresql
+    jdbc:
+      url: jdbc:postgresql://${HOST}:${PORT}/reactive-url
+    reactive:
+      url: postgresql://${HOST}:${PORT}/reactive-url

@@ -1,8 +1,6 @@
 quarkus:
   application:
     name: reactive-url
-  container-image:
-    group: thmasker
   datasource:
     db-kind: postgresql
     jdbc:
